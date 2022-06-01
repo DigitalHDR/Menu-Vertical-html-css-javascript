@@ -44,7 +44,8 @@ body {
   border-bottom-left-radius: 20px;
 }
 
-.navigation ul li:hover {
+.navigation ul li:hover,
+.navigation ul li.ativo {
     background-color:#fff ;
 }
 
@@ -58,7 +59,8 @@ body {
   color: #fff;
 }
 
-.navigation ul li:hover a {
+.navigation ul li:hover a,
+.navigation ul li.ativo a {
     color: #333;
 }
 
@@ -85,7 +87,8 @@ body {
 }
 
 /* Curva na entrado do menu vertival */
-.navigation ul li:hover a::before {
+.navigation ul li:hover a::before,
+.navigation ul li.ativo a::before {
     content: '';
     position: absolute;
     right: 0;
@@ -98,7 +101,8 @@ body {
     pointer-events: none;
 }
 
-.navigation ul li:hover a::after {
+.navigation ul li:hover a::after,
+.navigation ul li.ativo a::after {
     content: '';
     position: absolute;
     right: 0;
