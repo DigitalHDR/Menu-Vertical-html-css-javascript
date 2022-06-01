@@ -40,6 +40,12 @@ body {
 .navigation ul li {
   position: relative;
   width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navigation ul li.action {
+    background-color:#fff ;
 }
 
 .navigation ul li a {
@@ -50,6 +56,10 @@ body {
   align-items: center;
   text-decoration: none;
   color: #fff;
+}
+
+.navigation ul li.action a {
+    color: #333;
 }
 
 .navigation ul li a .icon {
